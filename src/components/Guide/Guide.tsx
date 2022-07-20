@@ -1,5 +1,5 @@
 import { Layout, Row, Typography } from 'antd';
-import React from 'react';
+import React, {FC} from 'react';
 import styles from './Guide.less';
 
 interface IProps {
@@ -7,7 +7,7 @@ interface IProps {
 }
 
 // 脚手架示例组件
-const Guide: React.FC<IProps> = (props) => {
+const Guide: FC<IProps> = (props) => {
   const { name } = props;
   return (
     <Layout>

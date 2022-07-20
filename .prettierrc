@@ -1,11 +1,10 @@
 {
-  "printWidth": 80,
+  "printWidth": 120,
   "useTabs": false,
   "semi": false,
   "endOfLine": "auto",
   "singleQuote": true,
   "trailingComma": "all",
   "proseWrap": "always",
-  "overrides": [{ "files": ".prettierrc", "options": { "parser": "json" } }],
-  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-packagejson"]
+  "overrides": [{ "files": ".prettierrc", "options": { "parser": "json" } }]
 }

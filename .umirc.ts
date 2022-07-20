@@ -36,5 +36,6 @@ export default defineConfig({
     },
   ],
   npmClient: 'npm',
+  title: 'table-visualization'
 });
 
