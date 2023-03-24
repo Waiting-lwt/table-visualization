@@ -1,6 +1,6 @@
 import { defineConfig } from '@umijs/max';
 
-export default defineConfig({
+export default {
   antd: {},
   access: {},
   model: {},
@@ -37,5 +37,5 @@ export default defineConfig({
   ],
   npmClient: 'npm',
   title: 'table-visualization'
-});
+};
 
